@@ -1,7 +1,7 @@
 /* This program converts an infix expression into its post fix format.
    It uses a stack implemented as ADT and defined in 'stackC.h' file.
    Operator precedence is also impmented in the said header file.
-   DEsigned by Nitul Dutta. The code is found in */
+   DEsigned by Nitul Dutta. The code is found in https://github.com/nituldutta/infix_postfix.git */
 #include<stdio.h>
 #include<ctype.h>
 #include "stackC.h"
