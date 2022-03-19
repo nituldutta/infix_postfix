@@ -21,7 +21,7 @@ char pop()
         }//end else 
 }
 
-int priority(char oper)
+int precedence(char oper)
 {
     if(oper == '(')
         return 0;
