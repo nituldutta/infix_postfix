@@ -34,7 +34,7 @@ int main()
         }
         else
         {
-            while(priority(stack[tos-1]) >= priority(symbol))
+            while(precedence(stack[tos-1]) >= precedence(symbol))
                 {
                   ele=pop();
                   post[j++]=ele;
